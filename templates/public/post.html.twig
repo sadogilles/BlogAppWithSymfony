@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Post Page {% endblock %}
+
+{% block body %}
+
+    <h1>
+        Bienvenue sur la page de POST
+    </h1>
+    {% if id  is defined %}
+    <h2>
+        Id du post : {{id}}
+        
+    </h2>
+    {% endif %}
+
+{% endblock %}
